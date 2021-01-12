@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    padding: 0; 
+    margin: 0;
+    font-family: sans-serif;
+}
+header {
+    background-color: gainsboro;
+}
+h1{
+    margin-left: 6em;
+}
+p{
+    margin-left: 4em;
+    padding: 0.5em;
+}
+nav ul {
+    display: flex;
+    margin-left: 15em;
+    text-align: left;  
+    background: gainsboro;
+    list-style: none;
+    margin-bottom: 1em;
+    text-decoration-style: none;
+}
+img{
+    margin-left: 7em;
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+nav ul li {
+    padding: 1.5em; 
+
+}
+nav li a {
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    transition-duration: 40ms;
+}
+a:hover {
+    color: rgb(69, 102, 145);
+    transform: scale(1.1);
+}
+div ul {
+    margin-top: 1em;
+    margin-left: 7em;
+    display: block;
+    list-style-type: disc
+}

@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    padding: 0; 
+    margin: 0;
+    font-family: sans-serif;
+}
+header {
+    background-color: gainsboro;
+}
+h1{
+    margin-left: 6em;
+}
+p{
+    margin-left: 4em;
+    padding: 0.5em;
+}
+ul {
+    display: flex;
+    margin-left: 15em;
+    text-align: left;  
+    background: gainsboro;
+    list-style: none;
+    margin-bottom: 1em;
+    text-decoration-style: none;
+}
+img{
+    margin-left: 7em;
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+ul li {
+    padding: 1.5em; 
+}
+li a {
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+}
+a:hover {
+    color: rgb(69, 102, 145);
+    transform: scale(1.1);
+}
